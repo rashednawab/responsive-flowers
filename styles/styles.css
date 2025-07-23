@@ -12,6 +12,11 @@
     margin: 0px auto;
 }
 
+.regular-paragraph{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
 /* Inter Font */
 .inter-regular{
   font-family: "Inter", sans-serif;
@@ -38,7 +43,8 @@
 
 .link-text-decoration{
     text-decoration: none;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.125rem;
 }
 
 .nav-bar{
@@ -48,12 +54,16 @@
 }
 
 .nav-links{
-    gap: 3rem;
-
+    gap: 48px;
 }
 
 #home-text{
     font-weight: 700;
+    color: #000000;
+}
+
+#cart-text{
+    color: #000000;
 }
 
 /* Hero Section */
@@ -75,8 +85,6 @@
 }
 
 .hero-paragraph{
-    font-size: 1.375rem;
-    color: rgba(0, 0, 0, 0.5);
     margin: 13px 0px 0px 0px;
 }
 
@@ -87,4 +95,28 @@
 }
 
 /* Footer Section */
+.footer-section{
+    gap: 110.67px;
+    align-items: start;
+}
+
+.footer-links{
+    gap: 110.67px;
+}
+
+.footer-card{
+    max-width: 359px;
+}
+
+.footer-link-item{
+    margin-bottom: 26px;
+}
+
+.footer-social-media{
+    padding: 0px;
+    align-items: center;
+    gap: 24px;
+    max-width: 216px;
+    /* border: 1px solid tomato; */
+}
 
