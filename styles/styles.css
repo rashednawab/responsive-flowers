@@ -1,0 +1,57 @@
+/* General Styles */
+.display-flex{
+    display: flex;
+}
+
+.bg-color{
+    background-color: rgba(232, 231, 242, 0.50);
+}
+
+.default-area{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* Inter Font */
+.inter-regular{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Noto Serif Font */
+.noto-serif-regular{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Nav Secion Styles */
+.link-list-item{
+    list-style: none;
+}
+
+.link-text-decoration{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    gap: 3rem;
+
+}
+
+#home-text{
+    font-weight: 700;
+}
+
