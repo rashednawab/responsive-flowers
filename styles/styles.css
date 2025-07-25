@@ -140,6 +140,50 @@
     /* border: 2px solid tomato; */
 }
 
+/* for cards */
+.plant-section-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px auto 210.12px auto;
+}
+
+.cards-first-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards-second-row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.plant-item{
+    max-width: 270px;
+}
+
+.plant-description{
+
+}
+
+.plant-name{
+    text-align: center;
+    margin: 20px auto 2px auto;
+}
+
+.plant-price{
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto 30px auto;
+}
+
+.button-cart{
+    width: 100%;
+    height: 50px;
+}
+
 
 
 
