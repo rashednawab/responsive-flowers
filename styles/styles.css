@@ -225,7 +225,108 @@
 
 }
 
+.plant-lover-images img{
+    max-width: 540px;
+}
 
+.badge{
+    width: 286px;
+    margin: 0px;
+    translate: 350px -750px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+
+/* Latest Deals Section */
+
+.latest-deals-section{
+    margin: 0px auto 120px auto;
+}
+
+/* for heading */
+.latest-deals-text h3{
+    color: rgba(233, 90, 8, 1);
+    font-weight: bold;
+    font-size: 3.125rem;
+    text-align: center;
+    margin: 0px auto;
+}
+#latest-heading-black{
+    color: black;
+}
+/* for paragraph */
+.latest-deals-text p{
+    text-align: center;
+    max-width: 888px;
+    margin: 16px auto 120px auto;
+}
+
+.bloom-plants{
+    background-image: url("../assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    max-width: 367px;
+    height: 201px;
+    border-radius: 14px;
+}
+.bloom-plants h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    /* border: 2px dashed red; */
+    margin: 0px auto;
+}
+
+.ana-plants{
+    background-image: url("../assets/deal-ana.png");
+    background-repeat: no-repeat;
+    max-width: 367px;
+    height: 201px;
+    border-radius: 14px;
+}
+.ana-plants h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    /* border: 2px dashed red; */
+    margin: 0px auto;
+}
+
+.zabo-plants{
+    background-image: url("../assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    max-width: 367px;
+    height: 201px;
+    border-radius: 14px;
+}
+.zabo-plants h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    /* border: 2px dashed red; */
+    margin: 0px auto;
+}
+
+.shop-now-link{
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    /* border: 2px dashed white; */
+}
+.deals-description{
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px dashed black; */
+}
+
+.deals{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-template-rows: repeat(2, 1fr);
+}
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 
