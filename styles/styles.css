@@ -116,7 +116,7 @@
 
 /* Plants Section */
 .plants-section{
-    border: 3px dashed red;
+    /* border: 3px dashed red; */
 
 }
 
@@ -184,6 +184,36 @@
     height: 50px;
 }
 
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+
+/* Plants lover Section */
+
+.plants-lover-section{
+    display: flex;
+    gap: 60px;
+    /* border: 2px solid red; */
+    margin: 0px auto 133.88px auto;
+}
+
+.plants-lovers-description{
+    max-width: 540px;
+    margin: 38px 0px 38px 0px;
+    /* border: 2px dashed black; */
+}
+
+/* for heading */
+.plants-lovers-description h3{
+    font-weight: bold;
+    font-size: 3.125rem;
+    margin: 0px auto 20px auto;
+}
+
+/* for texts */
+.description{
+    margin: 0px auto 20px auto;
+
+}
 
 
 
