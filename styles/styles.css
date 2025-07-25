@@ -114,6 +114,44 @@
 /* ----------------------------------------------------------------------------------------- */
 /* ----------------------------------------------------------------------------------------- */
 
+/* Plants Section */
+.plants-section{
+    border: 3px dashed red;
+
+}
+
+/* for heading */
+.plants-section-text h3{
+    color: rgba(233, 90, 8, 1);
+    font-weight: bold;
+    font-size: 3.125rem;
+    text-align: center;
+    margin: 0px auto;
+}
+#plants-heading-black{
+    color: #000000;
+}
+
+/* for paragraph */
+.plants-section-text p{
+    text-align: center;
+    max-width: 888px;
+    margin: 0px auto 49px auto;
+    /* border: 2px solid tomato; */
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------- */
+
 /* Join Section */
 .join-section{
     background-image: url("../assets/news-letter-bg.png");
