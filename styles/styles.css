@@ -265,6 +265,7 @@
 }
 
 .deals{
+    height: 423.12px;
     display: grid;
     grid-template-columns: 367px auto;
     grid-template-rows: auto auto;
@@ -287,7 +288,6 @@
     font-size: 1.25rem;
     /* border: 2px dashed red; */
     margin: 0px auto;
-    
 }
 
 .ana-plants{
@@ -338,11 +338,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* height: 423.12px; */
     /* border: 5px dashed black; */
 }
 
-
-
+.deals-description-zabo{
+    /* height: 201px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 423.12px;
+    /* border: 5px dashed black; */
+}
 
 
 /* ----------------------------------------------------------------------------------------- */
@@ -403,7 +411,7 @@
 /* Footer Section */
 .footer-section{
     gap: 110.67px;
-    align-items: start;
+    /* align-items: start; */
 }
 
 .footer-links{
@@ -426,3 +434,77 @@
     /* border: 1px solid tomato; */
 }
 
+
+
+
+
+
+@media screen and (max-width:576px){
+
+    .not-for-mobile{
+        display: none;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+
+    .plant-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plants-lover-section{
+        flex-direction: column;
+    }
+
+    .deals{
+        height: auto;
+        grid-template-rows: repeat(3, 1fr);
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 3px dashed black; */
+        justify-content: center;
+        grid-column-gap: 0px;
+    }
+
+    .bloom-plants{
+        grid-row: 1;
+    }
+
+    .ana-plants{
+        grid-row: 2;
+    }
+
+    .zabo-plants{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .deals-description-zabo{
+    height: 201px;
+    }
+
+    .form-email input{
+        width: auto;
+    }
+
+    .footer-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        gap: 0px;
+        /* border: 2px dashed red; */
+
+    }
+
+    .footer-links ul{
+        padding-inline-start: 0px;
+        margin: 0;
+    }
+
+}
+    
+    
