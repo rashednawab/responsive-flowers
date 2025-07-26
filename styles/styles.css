@@ -263,13 +263,12 @@
     grid-template-columns: 367px auto;
     grid-template-rows: 1fr 1fr;
     grid-gap: 25px 28px;
+    /* 367px */
 }
 
 .bloom-plants{
     background-image: url("../assets/deal-bloom.png");
     background-repeat: no-repeat;
-    /* max-width: 367px; */
-    /* height: 201px; */
     border-radius: 14px;
 
     grid-row: 1;
@@ -279,15 +278,12 @@
     color: white;
     font-weight: bold;
     font-size: 1.25rem;
-    /* border: 2px dashed red; */
     margin: 0px auto;
 }
 
 .ana-plants{
     background-image: url("../assets/deal-ana.png");
     background-repeat: no-repeat;
-    /* max-width: 367px;
-    height: 201px; */
     border-radius: 14px;
 
     grid-row: 2;
@@ -331,8 +327,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 423.12px; */
-    /* border: 5px dashed black; */
 }
 
 .deals-description-zabo{
@@ -342,8 +336,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    /* border: 5px dashed black; */
 }
 
 
@@ -473,6 +465,7 @@
     /* Plants Lover Responsive Section Ended */
 
     /* Latest Deals Responsive Section Started */
+
     .latest-deals-text p{
         margin-bottom: 51px;
     }
@@ -482,34 +475,42 @@
         grid-template-rows: repeat(3, 1fr);
         grid-template-columns: 1fr;
         grid-column-gap: 0px;
-        padding: 0;
-        border: 3px dashed green;
-        justify-content: center;
+        grid-row-gap: 20px;
+        /* border: 3px dashed green; */
     }
 
     .deals-description{
-        border: 5px dashed blue;
-        height: 100%;
+        /* border: 5px dashed blue; */
+        height: 201px;
         
     }
 
+    .deals-description-zabo{
+        height: 201px;
+    }
+
     .bloom-plants{
+        grid-column: 1;
         grid-row: 1;
-        border: 5px solid red;
+        /* border: 5px solid red; */
+        height: 201px;
+        border: 5px solid black;
+
     }
 
     .ana-plants{
         grid-row: 2;
+        grid-column: 1;
+        height: 201px;
     }
 
     .zabo-plants{
         grid-column: 1;
         grid-row: 3;
+        height: 201px;
     }
 
-    .deals-description-zabo{
-    height: 201px;
-    }
+
     /* Latest Deals Responsive Section Ended */
 
     /* Footer Responsive Section Started */
