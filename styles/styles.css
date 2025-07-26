@@ -229,10 +229,11 @@
     position: absolute;
 }
 
-/* ----------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------- */
 
+
+/* ----------------------------------------------------------------------------------------- */
 /* Latest Deals Section */
+/* ----------------------------------------------------------------------------------------- */
 
 .latest-deals-section{
     margin: 0px auto 120px auto;
@@ -260,7 +261,7 @@
     height: 423.12px;
     display: grid;
     grid-template-columns: 367px auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 25px 28px;
 }
 
@@ -336,11 +337,12 @@
 
 .deals-description-zabo{
     /* height: 201px; */
+    height: 423.12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 423.12px;
+    
     /* border: 5px dashed black; */
 }
 
@@ -447,9 +449,7 @@
     /* Plants Responsive Section Started */
     .plant-cards{
         grid-template-columns: repeat(2, 1fr);
-        border: 2px solid red;
-        /* max-width: 100%;
-        height: auto; */
+        /* border: 2px solid red; */
     }
 
     .plant-item img{
@@ -480,15 +480,22 @@
     .deals{
         height: auto;
         grid-template-rows: repeat(3, 1fr);
-        margin-left: auto;
-        margin-right: auto;
-        border: 3px dashed red;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0px;
+        padding: 0;
+        border: 3px dashed green;
         justify-content: center;
-        /* grid-column-gap: 0px; */
+    }
+
+    .deals-description{
+        border: 5px dashed blue;
+        height: 100%;
+        
     }
 
     .bloom-plants{
         grid-row: 1;
+        border: 5px solid red;
     }
 
     .ana-plants{
