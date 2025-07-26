@@ -439,8 +439,10 @@
     }
 
     /* Plants Responsive Section Started */
+
     .plant-cards{
         grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 41.5px;
         /* border: 2px solid red; */
     }
 
