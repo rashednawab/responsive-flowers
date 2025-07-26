@@ -490,9 +490,10 @@
     }
 
     .bloom-plants{
+        background-image: url("../assets/deal-bloom-resized.png");
+        background-repeat: no-repeat;
         grid-column: 1;
         grid-row: 1;
-        /* border: 5px solid red; */
         height: 201px;
         border: 5px solid black;
 
