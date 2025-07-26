@@ -111,14 +111,10 @@
     margin-bottom: 120px;
 }
 
-/* ----------------------------------------------------------------------------------------- */
-/* ----------------------------------------------------------------------------------------- */
 
+/* ----------------------------------------------------------------------------------------- */
 /* Plants Section */
-.plants-section{
-    /* border: 3px dashed red; */
-
-}
+/* ----------------------------------------------------------------------------------------- */
 
 /* for heading */
 .plants-section-text h3{
@@ -141,14 +137,14 @@
 }
 
 /* for cards */
-.plant-section-cards{
+/* .plant-section-cards{
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin: 0px auto 210.12px auto;
-}
+} */
 
-.cards-first-row{
+/* .cards-first-row{
     display: flex;
     justify-content: space-between;
 
@@ -158,14 +154,10 @@
     display: flex;
     justify-content: space-between;
 
-}
+} */
 
 .plant-item{
     max-width: 270px;
-}
-
-.plant-description{
-
 }
 
 .plant-name{
@@ -435,9 +427,12 @@
 }
 
 
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
 
 
 
+/* Responsive For Mobile Device */
 
 @media screen and (max-width:576px){
 
@@ -449,12 +444,21 @@
         flex-direction: column-reverse;
     }
 
+    /* Plants Responsive Section Started */
     .plant-cards{
         grid-template-columns: repeat(2, 1fr);
+        border: 2px solid red;
+        /* max-width: 100%;
+        height: auto; */
+    }
+
+    .plant-item img{
+        max-width: 100%;
+        height: auto;
     }
 
 
-    /* Plants Lover Section */
+    /* Plants Lover Responsive Section Started */
     .plants-lover-section{
         flex-direction: column;
         row-gap: 18px;
@@ -466,6 +470,7 @@
         max-width: 100%;
         height: auto;
     }
+    /* Plants Lover Responsive Section Ended */
 
    
     .deals{
@@ -495,6 +500,7 @@
     height: 201px;
     }
 
+    /* Footer Responsive Section Started */
     .form-email input{
         width: auto;
     }
@@ -515,7 +521,7 @@
         padding-inline-start: 0px;
         margin: 0;
     }
-
+    /* Footer Responsive Section Ended */
 
 }
     
