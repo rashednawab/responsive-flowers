@@ -453,10 +453,21 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+
+    /* Plants Lover Section */
     .plants-lover-section{
         flex-direction: column;
+        row-gap: 18px;
+        /* border: 2px solid red; */
+        margin: 0px;
     }
 
+    .plant-lover-images img{
+        max-width: 100%;
+        height: auto;
+    }
+
+   
     .deals{
         height: auto;
         grid-template-rows: repeat(3, 1fr);
@@ -505,9 +516,6 @@
         margin: 0;
     }
 
-    .store-image{
-        width: auto;
-    }
 
 }
     
